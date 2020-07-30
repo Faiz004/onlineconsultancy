@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name"> Online Consultancy </string>
+    <string name="Introduction">
+        <ul>
+            \n<li>This application is about helping students, who are intrested in applying abroad for their studies.</li>
+            \n<li>We are providing all your websearches on our single platform, where you would be able to find Countries, Universities and their respective Scholarships and all about admissions criteria.</li>
+            \n<li>This applications prevents you searching all night on more than 50 browser tabs and ends up getting confused.</li>
+            \n<li>We are following a straight process of hunting for a good country, university and scholarshipa and then even providing the applying procedure.</li>
+            \n<li>  Here you can have filters which would boost up your searching process and you will surely pick up what you would looking for.</li>
+        </ul>
+    </string>
+
+    <string name="stanford_name"> Stanford University </string>
+
+    <string name="stanford_overview">
+    Stanford University, officially Leland Stanford Junior University, is a private research university in Stanford, California. The university was founded in 1885 by Leland and Jane Stanford in memory of their only child, Leland Stanford Jr., who had died of typhoid fever at age 15 the previous year.
+    </string>
+
+    <string name="stanford_grad_admissiondetails">
+    More than 65 departments and programs offer graduate and professional degrees at Stanford. Admission requirements vary greatly among them.In light of the current situation with the COVID-19 pandemic, Stanford reaffirms its commitment to perform individualized, holistic review of each applicant to its graduate and professional programs. Importantly, we will respect decisions regarding the adoption of Credit/No Credit and other grading options during this unprecedented period of COVID-19 disruption, whether they are made by institutions or by individual students. Our goal remains to form graduate student cohorts that are excellent and encompass a diversity of perspectives, backgrounds and experiences that enrich the graduate educational experience.
+    We are aware of some school closings in areas impacted by the coronavirus outbreak, and that it may delay some courses of study as well as the reporting of official school documents.Welcome to Graduate Admissions, Office of the University Registrar, Stanford University. The tabs above contain detailed instructions and information on applying to Stanford's graduate programs.
+    Decisions regarding admission are made by the admitting departments, however, all offers of admission are subject to verification of university admission requirements such as degree conferral, academic transcripts, official test scores and English proficiency, by Graduate Admissions, Office of the University Registrar.
+ </string>
+
+    <string name="stanford_grad_admission_link"> https://gradadmissions.stanford.edu/ </string>
+
+    <string name="stanford_undergrad_admissiondetails">
+   Testing update for Fall 2021 applicants
+
+    For students applying for admission to Stanford’s Class of 2025, which will enter the university in Fall 2021, Stanford will review applications with or without standardized test scores, leaving the decision in the hands of the applicant. There will be no penalty for choosing not to submit scores. This update includes students who are submitting a transfer application for entry to Stanford in Fall 2021.
+    We recognize the many challenges created by the coronavirus pandemic, and we understand the difficulty students may have in preparing for and accessing admission testing worldwide. It may be particularly challenging for students to find alternatives to testing sites that have been oversubscribed, or where availability of testing is pushed further into the school year.
+    We are committed to a holistic review of all candidates, taking into account the vast array of information provided in and with each student’s application.
+    We expect to reinstate the SAT or ACT testing requirement for the Class of 2026, entering in Fall 2022.
+        </string>
+
+    <string name="stanford_undergrad_admission_link"> https://admission.stanford.edu/ </string>
+
+
+    <string name="harward_name"> Harvard University </string>
+
+    <string name="harward_overview">
+Harvard University is devoted to excellence in teaching, learning, and research, and to developing leaders in many disciplines who make a difference globally. The University, which is based in Cambridge and Boston, Massachusetts, has an enrollment of over 20,000 degree candidates, including undergraduate, graduate, and professional students. Harvard has more than 360,000 alumni around the world.
+Harvard at a Glance
+
+Harvard faculty are engaged with teaching and research to push the boundaries of human knowledge. For students who are excited to investigate the biggest issues of the 21st century, Harvard offers an unparalleled student experience and a generous financial aid program, with over $160 million awarded to more than 60% of our undergraduate students. The University has twelve degree-granting Schools in addition to the Radcliffe Institute for Advanced Study, offering a truly global education.    </string>
+
+    <string name="harward_grad_admissiondetails">
+     GSAS welcomes applications for admission from individuals who have or will have by the time of matriculation a BA, BS, or equivalent undergraduate degree and actively seeks applicants from groups historically underrepresented in graduate schools. All degree candidates are admitted for full-time study beginning in the fall term.
+    Immigration status does not factor into decisions about admissions and financial aid. For more information, see Undocumented at Harvard.
+    GSAS enables PhD students to coordinate their studies for an additional advanced degree. If you are planning a career in biomedical research and academic medicine and would like to earn an MD and a PhD, visit the Harvard-MIT MD/PhD program for more information. The JD/PhD Program enables students to study for a JD at Harvard Law School and a PhD in any program of study.
+    If you already hold a PhD or its equivalent, or are an advanced doctoral candidate at another institution, you may apply to a PhD program only if it is in an unrelated field of study; however, preference for admissions and financial aid will be given to those who have not already had an opportunity to study for a doctoral degree at Harvard or elsewhere. You may also want to consider pursuing non-degree study through our Special Student or Visiting Fellow programs.
+    Eligible Harvard College students with advanced standing may apply in the fall of their junior year to earn an AM or SM degree during their final year of undergraduate study. Interested students must contact the Office of Undergraduate Education for eligibility details before applying.
+    If you have questions about readmission or transferring to a different degree program, email the Office of Student Affairs or call 617-495-1814.</string>
+
+    <string name="harward_grad_admission_link"> https://gsas.harvard.edu/admissions/apply </string>
+
+    <string name="harward_undergrad_admissiondetails">
+
+All first-year applicants—both international and U.S. candidates—must complete the Common Application, the Universal College Application, or the Coalition Application along with the required supplements. You will need to submit:
+
+    Common Application, Coalition Application, or Universal College Application
+    Harvard College Questions for the Common Application, Coalition Application, or the Universal College Application Harvard supplement
+    $75 fee (or request a fee waiver)
+    ACT or SAT (with or without writing)*
+    2 SAT Subject Tests* (recommended, except in the case of financial hardship)
+        Standardized tests (ACT, SAT and Subject Tests) are optional for students applying for the Class of 2025.
+    Optional: AP or other examination results
+    School Report and high school transcript
+    Teacher Report (2)
+    Midyear School Report (after your first semester grades)
+    Final School Report (for admitted students only)
+
+   </string>
+
+    <string name="harward_undergrad_admission_link">https://college.harvard.edu/admissions/apply/first-year-applicants</string>
+
+    <string name="daad_name"> DAAD Scholarships </string>
+
+    <string name="daad_overview"> DAAD scholarships are aimed primarily at graduates, doctoral students and postdocs and are awarded for study and research visits to universities and non-university research institutions in Germany. In some programmes, internships are also funded.
+
+        DAAD awards Research Grants – Short-Term Grants for PhD students and postdocs and Research Grants – One-Year Grants for Doctoral Candidates from almost all countries of origin. For a language course in Germany, you can apply to the University Summer Courses and University Winter Courses programmes. A grant for a full doctoral programme in Germany is offered primarily to applicants from developing and threshold countries (based on the OECD-DAC list). Scholarships for a Masters degree in Germany are available, in particular, for persons from industrial countries.
+        Also available are so-called "Sur-place and Third Country Programmes" in which students and young scientists and researchers are offered DAAD funding for a graduate programme, doctoral programme or postdoc period in their home country or region.
+        If you wish to apply for a DAAD scholarship, please read the call for applications for your chosen scholarship programme in the scholarship database, paying particular attention to application deadlines. The scholarship database will take you to the application portal. Scholarship applications are reviewed by independent and voluntary selection committees, which also decide on the allocation of scholarships. Selection is based on subject-related criteria.
+        DAAD scholarships do not have to be paid back. They usually consist of a monthly scholarship payment (currently, for example, € 750 for undergraduates, € 850 for graduates and € 1,200 for doctoral/PhD students) and a flat-rate travel allowance. In many cases, DAAD also provides you with health, accident and personal liability insurance. Depending on scholarship programme, here are also additional benefits such as a one-off research allowance, family benefits or funds for language courses. The benefits offered by the respective scholarship programme are described in the call for applications in the scholarship database.
+        A comprehensive overview of DAAD scholarship programmes is available in our scholarship database: www.funding-guide.de.
+    </string>
+
+    <string name="daad_details">
+        DAAD offers scholarship programmes that are generally open to all subjects, although certain restrictions apply to some subjects (e.g. medicine). There are also subject-specific programmes. In the Scholarship database, you can select the scholarships that are offered for your subject group.
+        Not all programmes require a general minimum language level for funding applications. Depending on country of origin and scholarship programme, however, certain language skills may be expected. You can find out which requirements these are in the "Application requirements" section of the Call for Applications. Please read these requirements thoroughly to find out what applies to your programme.
+        For scholarships in Germany, however, the following generally applies: when you submit your application, you must provide proof of your current proficiency in the language of instruction (German, English, or German and English) in your chosen study programme.
+        Yes, you can learn German in online courses. For example, the Goethe-Institut as well as Deutsche-Uni Online (DUO) offer special online courses in German. For scholarship holders whose funding lasts longer than six months, DAAD will pay the costs of one DUO module.
+        Application procedures may vary depending on scholarship programme. To find out where and how to apply, please read the "Application procedure" section of the Call for Applications in the Scholarship database (www.funding-guide.de). Seek advice if you have any questions.
+
+        Contact persons (often in your area) are listed under "Contact and advice". A list of locations and contact data from the DAAD network is available here.
+        Unless otherwise stated in the Call for Applications, you can submit your application either in German or English. Please note that application documents that are not in German or English must be translated either into German or English. The translations do not have to be certified for the application procedure and you may do the translations yourself.
+        Scholarship applications are reviewed by an independent and voluntary selection committee. This may be made up of local and/or German university teachers, researchers and DAAD lectors. Depending on scholarship programme and the local situation, the best applicants may also be required to introduce themselves personally. Depending on programme, the selection decision is made either by the local selection committee directly or – in the case of a two-stage selection procedure – by another independent committee of academics in Germany. DAAD staff are not entitled to vote in the scholarship selection procedure.
+
+    </string>
+
+    <string name="daad_details_link">https://www.daad.de/en/study-and-research-in-germany/scholarships/important-information-for-scholarship-applicants/</string>
+
+
+
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".ScholarshipActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:autoText="false"
+        android:text="Online Consultancy "
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlue"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textFontWeight="20"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/TextView_scholarintro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Here you can choose your Scholarship that is suitable for you and after that you will get the complete details of the respective scholarship and its procedure."
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/inputScholarshipSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="183dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Search Scholarships.."
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <ListView
+        android:id="@+id/ScholarshipListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="225dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

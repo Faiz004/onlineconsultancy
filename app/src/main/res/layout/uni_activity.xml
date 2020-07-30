@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".UniActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/stanford" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autoText="false"
+                android:text="@string/stanford_name"
+                android:textColor="@color/colorRed"
+                android:textColorHighlight="@color/colorPrimary"
+                android:textFontWeight="20"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+
+            <TextView
+                android:id="@+id/textoverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="30dp"
+                android:text="Overview  "
+                android:textColor="@color/colorBlue"
+                android:textFontWeight="18"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:textColor="#152957" />
+
+            <TextView
+                android:id="@+id/unioverview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:textFontWeight="09sp"
+                android:textSize="18sp"
+                android:text="@string/stanford_overview" />
+
+            <TextView
+                android:id="@+id/text_graduate_admissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="0dp"
+                android:text="Graduate Admissions"
+                android:textColor="@color/colorBlue"
+                android:textFontWeight="18"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:textColor="#152957" />
+
+            <TextView
+                android:id="@+id/graduate_admissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:textFontWeight="09sp"
+                android:textSize="18sp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/stanford_grad_admissiondetails" />
+
+            <TextView
+                android:id="@+id/textgraduatelink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="30dp"
+                android:text="Link "
+                android:textColor="@color/colorBlue"
+                android:textFontWeight="18"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:textColor="#152957" />
+
+            <TextView
+                android:id="@+id/graduatelink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="30dp"
+                android:textFontWeight="13sp"
+                android:textSize="18sp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/stanford_grad_admission_link" />
+
+            <TextView
+                android:id="@+id/text_undergraduate_admissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:text="Undergraduate Admissions"
+                android:textColor="@color/colorBlue"
+                android:textFontWeight="18"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:textColor="#152957" />
+
+            <TextView
+                android:id="@+id/undergraduate_admissions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:textFontWeight="09sp"
+                android:textSize="18sp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/stanford_undergrad_admissiondetails" />
+
+            <TextView
+                android:id="@+id/textundergraduatelink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="30dp"
+                android:text="Link "
+                android:textColor="@color/colorBlue"
+                android:textFontWeight="18"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:textColor="#152957" />
+
+            <TextView
+                android:id="@+id/undergraduatelink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginStart="30dp"
+                android:textFontWeight="13sp"
+                android:textSize="18sp"
+                android:layout_marginEnd="30dp"
+                android:text="@string/stanford_undergrad_admission_link" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

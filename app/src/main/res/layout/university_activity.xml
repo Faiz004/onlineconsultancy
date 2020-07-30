@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".UniversityActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/TextView_univsintro"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:autoText="false"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center_vertical"
+        android:text="     Scholarship Filter"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlue"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textFontWeight="17"
+        android:textSize="17sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:autoText="false"
+        android:text="Online Consultancy "
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlue"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textFontWeight="20"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/TextView_univsintro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Here you can choose your preferred University in which you are wishing to apply and after that you will get the complete details including admissions and scholarships."
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/inputUniversitySearch"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Search University.."
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <ListView
+        android:id="@+id/UniversityListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <Switch
+        android:id="@+id/uniSwitchfilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="194dp" />
+
+
+</RelativeLayout>
